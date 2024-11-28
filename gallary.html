@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصور</title>
+    <link rel="stylesheet" href="styel-gallary.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <div class="navbar">
+        <div class="logo">
+          <img src="./306783955_484011867072198_3682333736718793352_n.jpg" alt="شعار المدرسة">
+      </div>
+          <div>
+            <a href="index.html"> الصفحة الرئيسية</a>
+            <a href="gallary.html">الصور </a>
+            <a href="videos.html">الفيديوهات </a>
+            <a href="student.html">الاعضاء</a>
+            <a href="ffff.html">الانجازات الفرديه</a>
+          </div>
+      </div>
+    <!-- محتوى الصفحة (المعرض) -->
+    <!-- <div id="photos" class="gallery">
+        <h2 class="www" style="color: white;">صور الاتحاد</h2>
+        <div class="gallery-container">
+            <img src="1.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="2.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="3.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="4.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="5.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="6.jpeg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="7.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="8.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="9.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="10.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="11.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="12.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="13.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="15.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+            <img src="15.jpg" alt="صورة 1" class="gallery-item" onclick="openModal(this)">
+           
+            
+
+            
+        </div>
+    </div> -->
+
+    <div class="card-container">
+        <div class="card" onclick="window.location.href='page1.html'">
+            <h3>مسابفه ايسف</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+        <div class="card" onclick="window.location.href='page2.html'">
+            <h3>cisco</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+        <div class="card" onclick="window.location.href='page3.html'">
+            <h3>المسابقه المتنوعه</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+       
+        <div class="card" onclick="window.location.href='page5.html'">
+            <h3>قران كريم</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+        
+       
+        <div class="card" onclick="window.location.href='page8.html'">
+            <h3>ندوه بعنوان (التغذيه السليمه و اثرها في بناء المتعلم)</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+        <div class="card" onclick="window.location.href='page9.html'">
+            <h3>ندوه بعنوان (السلام الاجتماعي من اجل حياه كريمه )</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+        <div class="card" onclick="window.location.href='page10.html'">
+            <h3>زياره مكتب تنفيذي اتحاد مدرسه جمال عبد الناصر لشركه المياه</h3>
+            <p>اضغط هنا للفتح</p>
+        </div>
+       
+       
+    </div>
+
+
+
+    <!-- نافذة منبثقة لعرض الصورة بحجم أكبر -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close-btn">&times;</span>
+        <img id="modal-img" src="" alt="صورة مكبرة">
+    </div>
+
+    <script src="gallary.js"></script>
+
+</body>
+</html>
